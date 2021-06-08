@@ -1,6 +1,25 @@
 # Hopin
 **A carpooling application built with React-Native**
 
+## Prerequisites 
+Follow React Native quick start guide to set up the development environment according to your device.
+
+RN DOCS, Setting up the development environment: https://reactnative.dev/docs/environment-setup
+
+If already setup, proceed to installation.
+
+## Installation
+1. Clone the repo
+2. Run `yarn install`
+3. Inside ios directory run `pod install`
+
+## Build and Run
+1. iOS: yarn ios
+2. Android: yarn android
+
+## Running tests
+- Run `yarn test`
+
 ## Screens
 
 * Login:
