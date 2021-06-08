@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders date and time pickers correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#1F2020",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "opacity": 1,
+        "padding": 17,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Alexandria
+       
+      -&gt;
+       
+      Cairo
+    </Text>
+  </View>
+</View>
+`;

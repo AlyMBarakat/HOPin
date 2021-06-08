@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders RideCard correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginRight": 7,
+        "width": 70,
+      }
+    }
+  >
+    9:30 AM
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#72B5A8",
+        "borderRadius": 5,
+        "flex": 1,
+        "marginBottom": 10,
+        "padding": 17,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Ahmed Khalid
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#3C796D",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Mitsubishi Lancer 2017
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#3C796D",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Seats left: 
+      4
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#3C796D",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Desert Road
+      </Text>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#3C796D",
+            "borderRadius": 5,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 14,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          HOP 🤙
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders date and time pickers correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "marginRight": 7,
+        "width": 70,
+      }
+    }
+  >
+    9:30 AM
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#72B5A8",
+        "borderRadius": 5,
+        "flex": 1,
+        "marginBottom": 10,
+        "padding": 17,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Ahmed Khalid
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#3C796D",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Mitsubishi Lancer 2017
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#3C796D",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Seats left: 
+      4
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#3C796D",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Desert Road
+      </Text>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#3C796D",
+            "borderRadius": 5,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 14,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          HOP 🤙
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

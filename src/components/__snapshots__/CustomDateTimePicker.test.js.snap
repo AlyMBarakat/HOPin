@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders DateTimePicker correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "marginBottom": 22,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#fff",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Date
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#72B5A8",
+          "borderColor": "#3C796D",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2D3436",
+          }
+        }
+      >
+        2020-08-22
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginBottom": 22,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#fff",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Time
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#72B5A8",
+          "borderColor": "#3C796D",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2D3436",
+          }
+        }
+      >
+        1:15 AM
+      </Text>
+    </View>
+  </View>,
+]
+`;
+
+exports[`renders date and time pickers correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "marginBottom": 22,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#fff",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Date
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#72B5A8",
+          "borderColor": "#3C796D",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2D3436",
+          }
+        }
+      >
+        2020-08-22
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginBottom": 22,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#fff",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Time
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#72B5A8",
+          "borderColor": "#3C796D",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2D3436",
+          }
+        }
+      >
+        1:15 AM
+      </Text>
+    </View>
+  </View>,
+]
+`;

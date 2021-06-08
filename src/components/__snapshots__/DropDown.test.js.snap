@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders date and time pickers correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 22,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#fff",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Dropdown list
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#72B5A8",
+        "borderColor": "#3C796D",
+        "borderRadius": 5,
+        "borderWidth": 3,
+        "opacity": 1,
+        "paddingHorizontal": 6,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2D3436",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`renders dropdown picker correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 22,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#fff",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Dropdown list
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#72B5A8",
+        "borderColor": "#3C796D",
+        "borderRadius": 5,
+        "borderWidth": 3,
+        "opacity": 1,
+        "paddingHorizontal": 6,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2D3436",
+        }
+      }
+    />
+  </View>
+</View>
+`;
