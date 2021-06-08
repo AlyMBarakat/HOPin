@@ -3,7 +3,7 @@
 
 ## Screens
 
-* Login Screen:
+* Login:
 
 <a href="https://ibb.co/8xmF2G0">
 <img src="https://i.ibb.co/09nPZ1c/Screen-Shot-2021-06-08-at-5-32-07-AM.png" alt="Screen-Shot-2021-06-08-at-5-32-07-AM" border="0" width="200"></a>
