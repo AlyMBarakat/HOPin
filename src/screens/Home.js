@@ -10,7 +10,10 @@ import {
 } from 'react-native';
 import Road from '../components/Road'
 
-const Home = ({ navigation }) => {
+const Home = ({ route, navigation }) => {
+    const { userData } = route.params;
+
+
     return (
         <SafeAreaView style={{ backgroundColor: '#2D3436', flex: 1 }}>
             <View style={styles.container}>
@@ -27,7 +30,9 @@ const Home = ({ navigation }) => {
             {/* Home Button */}
             <TouchableOpacity
                 style={styles.Home}
-                onPress={() => navigation.navigate("Create Ride")}
+                onPress={() => navigation.navigate("Create Ride", {
+                    userData,
+                })}
             >
                 <Text
                     style={{ color: "#fff", fontSize: 50, fontWeight: 'bold', }}

@@ -22,8 +22,8 @@ function formatDate(date) {
 }
 
 
-const CustomDataTimePicker = ({ name, type }) => {
-    const [date, setDate] = useState(new Date(1598051730000));
+const CustomDataTimePicker = ({ name, type, date, setDate }) => {
+    // const [date, setDate] = useState(new Date(1598051730000));
     const [isListShown, setListShown] = useState(false);
 
     const onChange = (event, selectedDate) => {

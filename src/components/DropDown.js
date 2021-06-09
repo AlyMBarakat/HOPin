@@ -8,10 +8,7 @@ import {
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 
-
-
-const DropDown = ({ list, name }) => {
-    const [selectedItem, setSelectedItem] = useState();
+const DropDown = ({ list, name, selectedItem, setSelectedItem }) => {
     const [isListShown, setListShown] = useState(false);
 
     return (

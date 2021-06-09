@@ -7,8 +7,8 @@ import {
 
 } from 'react-native';
 
-const Counter = ({ name }) => {
-    const [count, setCount] = useState(0);
+const Counter = ({ name, count, setCount }) => {
+    // const [count, setCount] = useState(0);
 
     const handleCount = (operation) => {
         if (operation === "+" && count < 4)

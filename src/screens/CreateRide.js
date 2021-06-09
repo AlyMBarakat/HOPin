@@ -3,7 +3,6 @@ import {
     Text,
     View,
     StyleSheet,
-    TextInput,
     TouchableOpacity,
     SafeAreaView,
     ScrollView,
@@ -12,11 +11,47 @@ import {
 import DropDown from '../components/DropDown';
 import CustomDataTimePicker from '../components/CustomDataTimePicker';
 import Counter from '../components/Counter';
+import axios from 'axios';
+import Toast from 'react-native-toast-message';
 
 const GOVERNORATES = ["Alexandria", "Aswan", "Asyut", "Beheira", "Beni Suef", "Cairo", "Dakahlia", "Damietta", "Faiyum", "Gharbia", "Giza", "Ismailia", "Kafr El Sheikh", "Luxor", "Matruh", "Minya", "Monufia", "New Valley", "North Sinai", "Port Said", "Qalyubia", "Qena", "Red Sea", "Sharqia", "Sohag", "South Sinai", "Suez"];
 const ROADS = ["Geish Road", "International Coastal Road", "Cairo - Alexandria Desert Road", "Ring Road", "Regional Ring Road"];
 
-const CreateRide = ({ navigation }) => {
+const CreateRide = ({ route, navigation }) => {
+    const { userData } = route.params;
+
+    const [source, setSource] = useState("");
+    const [destination, setDestination] = useState("");
+    const [road, setRoad] = useState("");
+    const [passengers, setPassengers] = useState(0);
+    const [date, setDate] = useState(new Date(1598051730000));
+    const [time, setTime] = useState(new Date(1598051730000));
+
+    const handleSubmit = async () => {
+        try {
+            const response = await axios.post(`http://localhost:3000/api/user/${userData.id}/ride`,
+                {
+                    source,
+                    destination,
+                    road,
+                    numOfPassengers: passengers,
+                    date,
+                    time,
+                }
+            );
+            console.log(response.data.data);
+            Toast.show({
+                text1: `Ride submitted successfully 👋`,
+            });
+            navigation.navigate('Home');
+        } catch (error) {
+            Toast.show({
+                text1: `Oops, an error occured😳`,
+                text2: 'Please try again',
+                type: 'error',
+            });
+        }
+    }
 
     return (
         <SafeAreaView style={{ backgroundColor: '#2D3436', flex: 1 }}>
@@ -26,18 +61,47 @@ const CreateRide = ({ navigation }) => {
                 >RIDE DETAILS</Text>
                 {/* Form */}
                 <ScrollView>
-                    <DropDown name="Ride Source 🛫" list={GOVERNORATES} />
-                    <DropDown name="Ride Destination 🛬" list={GOVERNORATES} />
-                    <DropDown name="Travel Road 🛣️" list={ROADS} />
-                    <Counter name="Available Passengers 💺" />
-                    <CustomDataTimePicker name="Date 🗓️" type="date" />
-                    <CustomDataTimePicker name="Time ⏰" type="time" />
+                    <DropDown
+                        name="Ride Source 🛫"
+                        list={GOVERNORATES}
+                        selectedItem={source}
+                        setSelectedItem={setSource}
+                    />
+                    <DropDown
+                        name="Ride Destination 🛬"
+                        list={GOVERNORATES}
+                        selectedItem={destination}
+                        setSelectedItem={setDestination}
+                    />
+                    <DropDown
+                        name="Travel Road 🛣️"
+                        list={ROADS}
+                        selectedItem={road}
+                        setSelectedItem={setRoad}
+                    />
+                    <Counter
+                        name="Available Passengers 💺"
+                        count={passengers}
+                        setCount={setPassengers}
+                    />
+                    <CustomDataTimePicker
+                        name="Date 🗓️"
+                        type="date"
+                        date={date}
+                        setDate={setDate}
+                    />
+                    <CustomDataTimePicker
+                        name="Time ⏰"
+                        type="time"
+                        date={time}
+                        setDate={setTime}
+                    />
                 </ScrollView>
             </View>
             {/* CreateRide Button */}
             <TouchableOpacity
                 style={styles.CreateRide}
-                onPress={() => navigation.navigate("Home")}
+                onPress={handleSubmit}
             >
                 <Text
                     style={{ color: "#fff", fontSize: 30, fontWeight: 'bold', }}
