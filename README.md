@@ -10,7 +10,7 @@ RN DOCS, Setting up the development environment: https://reactnative.dev/docs/en
 
 If already setup, proceed to installation.
 
-## Installation
+## Installation 👷
 1. Clone the repo
 2. Run `yarn install`
 3. Inside ios directory run `pod install`
