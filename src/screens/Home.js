@@ -13,7 +13,6 @@ import Road from '../components/Road'
 const Home = ({ route, navigation }) => {
     const { userData } = route.params;
 
-
     return (
         <SafeAreaView style={{ backgroundColor: '#2D3436', flex: 1 }}>
             <View style={styles.container}>
@@ -22,9 +21,10 @@ const Home = ({ route, navigation }) => {
                 >UPCOMMING HOPINS</Text>
                 <ScrollView>
                     <Road />
-                    <Road />
-                    <Road />
-                    <Road />
+                    <Road source="Alexandria" destination="Cairo" />
+                    <Road source="Cairo" destination="Sharm El Sheikh" />
+                    <Road source="Alexandria" destination="Fayoum" />
+                    <Road source="Fayoum" destination="Alexandria" />
                 </ScrollView>
             </View>
             {/* Home Button */}
