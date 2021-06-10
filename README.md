@@ -15,7 +15,7 @@ If already setup, proceed to installation.
 2. Run `yarn install`
 3. Inside ios directory run `pod install`
 
-## Build and Run 👏
+## Build 🏗️ and Run 🏃
 1. iOS: yarn ios
 2. Android: yarn android
 
