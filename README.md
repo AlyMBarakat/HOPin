@@ -1,5 +1,7 @@
-# Hopin
+# Hopin🤙
 **A carpooling application built with React-Native**
+
+## Hopin-API repo: https://github.com/AlyMBarakat/HOPin-api/tree/master ✌️
 
 ## Prerequisites 
 Follow React Native quick start guide to set up the development environment according to your device.
